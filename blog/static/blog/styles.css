@@ -1,0 +1,79 @@
+/* Reset some basic styles for cleaner look */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and text styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+/* Styling for the blog container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Post card styling */
+.post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.post h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.post p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.post small {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.post a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .post h2 {
+        font-size: 1.5rem;
+    }
+}
